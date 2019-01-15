@@ -13,7 +13,7 @@ sys.setdefaultencoding('UTF-8')     # still heb strings log lft->rgt reversed(?)
 
 cnfg_file = "cnfg.txt"
 
-# LOG:
+# LOGGING 15012019:
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)                       # up level setting for logger obj
 
