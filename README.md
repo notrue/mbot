@@ -1,4 +1,5 @@
 # mbot
+
 simple telegram bot 'conversator': python \ polling(sampling the status) to controll the bot 
 
 conversation: bot only fetches message was sent to it and returns it to a sender while 
@@ -8,3 +9,5 @@ message sender id.
 logging into file
 
 log file upload to google drive by gdrive script daily
+
+15012019 - a change for Jenkins poll
