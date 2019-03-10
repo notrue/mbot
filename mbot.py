@@ -3,7 +3,7 @@ import telegram, time, sys, os, re, platform
 from telegram import ParseMode
 from datetime import datetime, timedelta
 import logging
-import tokenbot                     # .gitignore !
+# import tokenbot                     # .gitignore !
 import WazeRouteCalculator
 import dfu                          # Data_File_Use: strings constants etc.
 import pymongo
