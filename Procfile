@@ -1,1 +1,1 @@
-worker: python-2.6 mbot.py
+worker: python mbot.py
