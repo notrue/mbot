@@ -1,5 +1,7 @@
 # coding: utf-8
 import telegram, time, sys, os, re, platform
+# supported Heroku runtime versions:
+# https://devcenter.heroku.com/articles/python-support#supported-runtimes
 # from importlib import reload
 from telegram import ParseMode
 from datetime import datetime, timedelta
