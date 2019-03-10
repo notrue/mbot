@@ -6,7 +6,7 @@ import telegram, time, sys, os, re, platform
 from telegram import ParseMode
 from datetime import datetime, timedelta
 import logging
-# import tokenbot                     # .gitignore !
+import tokenbot                     # .gitignore !
 import WazeRouteCalculator
 import dfu                          # Data_File_Use: strings constants etc.
 import pymongo
@@ -62,10 +62,10 @@ class Robot:
             self.skippy = False
             self.dyn_delay = 0.9
         except telegram.error.TimedOut:
-            print(dfu.str_time_out.format(datetime.now()))
+            print dfu.str_time_out.format(datetime.now())
             self.dyn_delay = 5
         except IndexError:
-            print(dfu.str_idx_err.format(datetime.now()))
+            print dfu.str_idx_err.format(datetime.now())
             self.dyn_delay = 10
         except Exception as e:
             logger.info(e)
