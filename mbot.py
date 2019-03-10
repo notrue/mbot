@@ -62,7 +62,7 @@ class Robot:
             print(dfu.str_time_out.format(datetime.now()))
             self.dyn_delay = 5
         except IndexError:
-            print dfu.str_idx_err.format(datetime.now())
+            print(dfu.str_idx_err.format(datetime.now()))
             self.dyn_delay = 10
         except Exception as e:
             logger.info(e)
